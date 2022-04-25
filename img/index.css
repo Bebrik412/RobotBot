@@ -316,6 +316,7 @@ body {
     }
     .header {
         margin-top: 0px;
+        position: relative;
     }
     .header-content {
         margin-top: 90px;
