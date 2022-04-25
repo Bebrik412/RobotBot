@@ -213,7 +213,7 @@ body {
         height: 80vh;
         background-repeat: no-repeat;
         background-size: 200%;
-        background-position: -380px;
+        background-position: center;
         
     }
     .header-content {
