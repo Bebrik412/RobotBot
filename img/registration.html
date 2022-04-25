@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    <form>
+        <div class="header">
+            <a href="index.html"><</a>
+            <h1>Заявка на вступление</h1>
+        </div>
+        <div class="content">
+            <fieldset>
+                <legend>Ваш никнейм в реальной жизни:)</legend>
+                <input type="text" placeholder="Имя">
+                <input type="text" placeholder="Фамилия">
+            </fieldset>
+            <div class="gender">
+                <p>Ваш пол</p>
+                <input type="radio" name="gender" value="male" id="male">
+                <label for="male">М</label>
+                <input type="radio" name="gender" value="female" id="female">
+                <label for="female">Ж</label>
+            </div>
+            <div class="eighteen">
+                <input type="checkbox" value="eighteen" id="age">
+                <label for="age">Мне есть 18</label>
+            </div>
+            <div class="game">
+                <label for="game">Ваша дисциплина</label>
+                <select id="game">
+                    <option value="csgo">CS:GO</option>
+                    <option value="dota2">DOTA 2</option>
+                    <option value="apex">APEX LEGENDS</option>
+                    <option value="rick">RICKROLL</option>
+                    <option value="reallife">REAL LIFE</option>
+                </select>
+            </div>
+            <textarea placeholder="Дополнительная информация"></textarea>
+            <button>Отправить заявку</button>
+        </div>
+    </form>
+</body>
+</html>

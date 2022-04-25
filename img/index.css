@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;0,700;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Russo One', sans-serif;
+}
+.container {
+    max-width: 1024px;
+    margin: auto;
+
+}
+.section-title {
+    color: #65daff;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px
+}
+body {
+    background-color: #222222;
+}
+.menu {
+    position: fixed;
+    width: 100%;
+    font-weight: 600;
+    background-color: #222222;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.781);
+    padding: 20px 0px;
+    z-index: 12301023;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 5px;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.menu span {
+    font-size: 25px;
+
+}
+.novigation {
+    float: right;
+    padding-top: 5px
+;
+}
+.novigation a:hover {
+    color:#65daff;
+    text-shadow: 0px 0px 7px #65daff;
+}
+.header {
+    background-image: url(pepex.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    
+}
+.header-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-75%);
+    margin: 30px;
+}
+.header-content h1 {
+    font-size: 80px;
+    width: 700px;
+    font-weight: 900;
+    color:#414141;
+}
+.header-content p {
+    font-size: 40px;
+    color:#414141;
+    font-weight: normal;
+    margin: 50px 0px;
+}
+.header-content a {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(45deg, #66dbff, #74fecc);
+    padding: 30px 70px;
+    display: inline-block;
+    transition: 0.3s;
+}
+.header-content a:hover {
+    transform: scale(1.1);
+}
+.header-content:active {
+    filter: hue-rotate(180deg);
+}
+.card {
+    color: #65daff;
+    display: inline-block;
+    font-size: 20px;
+    width: 22%;
+    text-align: center;
+    margin: 50px 10px
+}
+.card p {
+    font-family: 'Montserrat', sans-serif;
+}
+.card img {
+    width: 100px
+}
+.card1 img {
+    width: 150px
+}
+.row {
+    display: inline-block;
+    width: 100%;
+}
+.row img {
+    width: 500px;
+    height: 350px;
+    float: right;
+}
+.row2 img {
+    float: left;
+}
+.row p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    width: 480px;
+}
+.text2 {
+    float: right;
+}
+.text1, .text3 {
+    float: left;
+}
+.play {
+    box-shadow: 0px 0px 50px black;
+    padding: 10px
+}
+.row p{
+    padding: 10px 0px
+}
+.hrr {
+    width: 200px;
+    margin: 10px 0px;
+    border: 1px solid rgb(78, 230, 172);
+}
+.text {
+    margin: 10px;
+}
+.h11 {
+    color: rgb(78, 230, 172)
+}
+.we-often p {
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 30px 0px
+}
+.we-often {
+    margin: 50px;
+}
+.go {
+    box-shadow: 0px 0px 50px black;
+    padding: 20px;
+}
+.header2 {
+    margin: 50px;
+    position: relative;
+}
+.go-hr {
+    margin: 40px auto;
+    color: white;
+    width: 300px;
+}
+.header2 h1 {
+    color: white;
+    background-color: #65daff;
+    padding: 50px 80px;
+    position: relative;
+}
+.header2 a {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 50px;
+    left: 650px
+}
+@media(max-width: 420px) {
+    .container {
+        max-width: 420px;
+        margin: auto;
+    }
+    .menu {
+        position: static;
+        width: 100vw;
+        font-weight: 600;
+        background-color: #222222;
+        box-shadow: none;
+        padding: 20px 0px;
+        z-index: 12301023;
+        display: inline-block;
+        font-size: 20px;
+    }
+    .novigation {
+        float: none;
+        padding-top: 5px;
+        height: 50px;
+        width: 50px;
+    }
+    .header {
+        background-image: url(pepex.jpg);
+        height: 80vh;
+        background-repeat: no-repeat;
+        background-size: 200%;
+        background-position: -380px;
+        
+    }
+    .header-content {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-75%);
+        margin: 0;
+    }
+    .header-content h1 {
+        font-size: 40px;
+        width: 100%;
+        font-weight: 900;
+        color:#00c3ff;
+        text-shadow: 0px 0px 10px black;
+        text-align: center;
+    }
+    .header-content p {
+        font-size: 40px;
+        color:#414141;
+        font-weight: normal;
+        margin: 50px 0px;
+        text-shadow: 0px 0px 10px rgb(255, 255, 255);
+        text-align: center;
+    }
+    .header-content a {
+        display: block;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .card {
+        color: #65daff;
+        display: inline-block;
+        font-size: 20px;
+        width: 45%;
+        text-align: center;
+        margin: 50px 5px;
+        vertical-align: top;
+    }
+    .card p {
+        font-family: 'Montserrat', sans-serif;
+    }
+    .card img {
+        width: 100px
+    }
+    .card1 img {
+        width: 150px
+    }
+    .row {
+        display: inline-block;
+        width: 100%;
+    }
+    .row img {
+        width: 100%;
+        height: auto;
+        float: right;
+    }
+    .row2 img {
+        float: left;
+    }
+    .row p {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        width: 100%;
+    }
+    .text2 {
+        float: none;
+    }
+    .text1, .text3 {
+        float: none;
+    }
+    .play {
+        box-shadow: 0px 0px 0px;
+        padding: 0px
+    }
+    .hrr {
+        width: 200px;
+        margin: 10px 0px;
+        border: 1px solid rgb(78, 230, 172);
+    }
+    .text {
+        margin: 5px;
+    }
+    .header2 a {
+        top: 60px;
+        left: 55px
+    }
+    .header2 h1 {
+        color: white;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .header2 {
+        padding: 20px 10px 50px 10px;
+        background-color: #65daff;
+    }
+    .go {
+        box-shadow: none;
+    }
+    .header {
+        margin-top: 0px;
+    }
+    .header-content {
+        margin-top: 90px;
+    }
+}
